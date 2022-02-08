@@ -16,8 +16,9 @@
 
 |Resource  | Dr. Hale needed? | Investigating Team member | Description |
 |-------------------|---------|---------------------------|-------------|
-|Some resource| No | Bob | Some description  |
-|e.g. PLC unit | Yes | Gary | A programmable logic controller from Siemens for investigation.|
+|AiTrip Digispark MicroUSB Dev Board | No | All | Board that will be used to craft the BadUSB|
+|Windows 10 VM | No | All | VM on which we can test the function of the BadUSB and our code|
+|Windows 10 PC| No | Mitchell | PC on which we can test the function of our BadUSB and our code|
 
 # First Sprint Plan
 
