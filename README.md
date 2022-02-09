@@ -8,7 +8,11 @@
 
 |Risk name (value)  | Impact     | Likelihood | Description |
 |-------------------|------------|------------|-------------|
-|Some risk (40) | 8 | 5 | Some description  |
+|security bypassed(36) | 6 | 6 | The security check that detects a new keyboard fails to detect or start  |
+|Failure to unlock(28) | 7 | 4 | Even if check is passed the keyboard is not allowed to type  |
+|USB disable(18) | 9 | 2 | Through security policy or other USB ports become unusable |
+|Lockout(24) | 8 | 3 | Our Utility stop any form of keyboard input  |
+|Project failure(30) | 10 | 3 | Failure to create a effective method to stop Bad USBs  |
 
 # Project Methodology
 
