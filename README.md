@@ -6,8 +6,16 @@ Users need an easy way to input data to a computer. This led to the creation of 
 The issue with HID is that it is an innately trusted device for operating systems. While there is no issue with innately trusting a keyboard, there is a problem with trusting a device that can masquerade as a keyboard. In 2014 the power of devices known generically as BadUSBs was demonstrated at Defcon. These devices can pretend to be a keyboard and automatically inputting malicious commands upon plug in. 
 
 ## Project Goals 
-
+1. Develop a prototype **Maybe name prouduct here** in Python
+2. Research effectivness in Python
+3. If Found effective in Python continue development to a final product
+4. If found ineffective research methods to develop prototype in C
+5. Develop prototype in C
+6. Research effectivness in C
+7. If found effective in C continue development to a final product
+8. If found ineffective research what other options there are to develop a prouduct for Windows
 ## Merit
+This project can potentially save companies from headaches in the future. There is no current ethical issue with developing an application to assist in the protection of a computer, and while there are currently mitigations in place to protect against BadUSB attacks, this will introduce a full protection against it. 
 
 # Proposed Timeline
 
