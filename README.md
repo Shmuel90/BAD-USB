@@ -1,6 +1,11 @@
 # BAD-USB
 
 # Executice Project Summary
+## Problem Statement
+
+## Project Goals 
+
+## Merit
 
 # Proposed Timeline
 
