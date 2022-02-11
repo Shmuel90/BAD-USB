@@ -5,3 +5,4 @@
 | https://ieeexplore-ieee-org.leo.lib.unomaha.edu/document/9474274 | BADUSB-C: Revisiting BadUSB with Type-C |
 | https://dl-acm-org.leo.lib.unomaha.edu/doi/10.1145/3289100.3289121 | Making Whitelisting-Based Defense Work Against BadUSB | 
 | https://dl-acm-org.leo.lib.unomaha.edu/doi/10.1145/3339252.3339268 | Using Context and Provenance to defend against USB-borne attacks |
+| https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/introduction-to-plug-and-play | Introduction to PnP |
