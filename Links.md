@@ -11,3 +11,4 @@
 | https://stackoverflow.com/questions/29289945/how-to-temporarily-disable-keyboard-input-using-python | Disabling keyboard input in Python | 
 | https://stackoverflow.com/questions/130763/request-uac-elevation-from-within-a-python-script | Requesting UAC in Python | 
 | https://stackoverflow.com/questions/9930958/win32-determining-when-keyboard-is-connected-disconnected | C++ keyboard detection | 
+| https://www.researchgate.net/profile/Karmand-Hussein/publication/340006275_AN_EVALUATION_OF_DIFFERENT_TYPES_OF_CAPTCHA_EFFECTIVENESS_USER-_FRIENDLINESS_AND_LIMITATIONS/links/5e728823a6fdcc37caf62ccf/AN-EVALUATION-OF-DIFFERENT-TYPES-OF-CAPTCHA-EFFECTIVENESS-USER-FRIENDLINESS-AND-LIMITATIONS.pdf | Captcha effectivness |
