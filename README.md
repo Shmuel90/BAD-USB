@@ -23,11 +23,12 @@ This project can potentially save companies from headaches in the future. There 
 
 |Risk name (value)  | Impact     | Likelihood | Description |
 |-------------------|------------|------------|-------------|
-|security bypassed(36) | 6 | 6 | The security check that detects a new keyboard fails to detect or start  |
-|Failure to unlock(28) | 7 | 4 | Even if check is passed the keyboard is not allowed to type  |
-|USB disable(18) | 9 | 2 | Through security policy or other USB ports become unusable |
-|Lockout(24) | 8 | 3 | Our Utility stop any form of keyboard input  |
-|Project failure(30) | 10 | 3 | Failure to create a effective method to stop Bad USBs  |
+|security bypassed(36) | 6 | 6 | The security check that detects a new keyboard fails to detect or start. Mitigate this risk by researching a lower level method of finding new devices |
+|Failure to unlock(28) | 7 | 4 | Even if check is passed the keyboard is not allowed to type. Accept this risk until further research is performed.  |
+|USB disable(18) | 9 | 2 | Through security policy or other USB ports become unusable. Mitigate this rish by using a VM or other system that allows us to flash it and restart. |
+|Lockout(24) | 8 | 3 | Our Utility stop any form of keyboard input. Accept this risk until further research is done.  |
+|Project failure(30) | 10 | 3 | Failure to create a effective method to stop Bad USBs. Monitor this risk, and potentially shift project focus if our idea cannot be completed.  |
+| lack of knowledge of windows hardware stack(28) | 4 | 7 | Our team lacks proper knowledge about the windows hardware stack which makes it more difficult to gauge if our idea will work at a higher level. Mitigate this risk by researching and gaining a better understanding of how the windows hardware stack operates. | 
 
 # Project Methodology
 
