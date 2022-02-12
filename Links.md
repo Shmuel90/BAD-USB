@@ -8,6 +8,7 @@
 | https://dl-acm-org.leo.lib.unomaha.edu/doi/10.1145/3339252.3339268 | Using Context and Provenance to defend against USB-borne attacks |
 | https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/introduction-to-plug-and-play | Introduction to PnP |
 | https://www.researchgate.net/profile/Karmand-Hussein/publication/340006275_AN_EVALUATION_OF_DIFFERENT_TYPES_OF_CAPTCHA_EFFECTIVENESS_USER-_FRIENDLINESS_AND_LIMITATIONS/links/5e728823a6fdcc37caf62ccf/AN-EVALUATION-OF-DIFFERENT-TYPES-OF-CAPTCHA-EFFECTIVENESS-USER-FRIENDLINESS-AND-LIMITATIONS.pdf | Captcha effectivness |
+| https://rp.os3.nl/2014-2015/p49/report.pdf | Feasibility and Deployment of Bad USB | 
 # Technical Reference
 |Link  | Description     | 
 |-------------------|------------|
