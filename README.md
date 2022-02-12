@@ -8,7 +8,7 @@ The issue with HID is that it is an innately trusted device for operating system
 ## Project Goals 
 1. Develop a prototype **Maybe name prouduct here** in Python
 2. Research effectivness in Python \
-2a. If Found effective in Python continue development to a final product \
+2a. If Found effective in Python continue development to a final product 
 3. If found ineffective research methods to develop prototype in C
 3a. Develop prototype in C \
 3b. Research effectivness in C \
