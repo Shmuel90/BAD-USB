@@ -18,7 +18,7 @@ The issue with HID is that it is an innately trusted device for operating system
 This project can potentially save companies from headaches in the future. There is no current ethical issue with developing an application to assist in the protection of a computer, and while there are currently mitigations in place to protect against BadUSB attacks, this will introduce a full protection against it. 
 
 # Proposed Timeline
-
+![image](https://user-images.githubusercontent.com/56526625/153780252-0ad2a31a-c621-440e-b48a-008838362a42.png)
 # Risk List
 
 |Risk name (value)  | Impact     | Likelihood | Description |
