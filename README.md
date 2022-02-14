@@ -40,5 +40,4 @@ This project can potentially save companies from headaches in the future. There 
 |Windows 10 VM | No | All | VM on which we can test the function of the BadUSB and our code|
 |Windows 10 PC| No | Mitchell | PC on which we can test the function of our BadUSB and our code|
 
-# First Sprint Plan
 
