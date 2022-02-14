@@ -22,3 +22,4 @@
 |Link  | Description     | 
 |-------------------|------------|
 | https://docs.google.com/document/d/1Zbe8zLCD3OaBnjfaiYKXgCWYsiPiE7eWLOwFW9y8k8M/edit# | Lit Review |
+| https://docs.google.com/document/d/16VHBC3ocFnh74qqEeVmFjGvPwFHWjFWdPFI9ILKpm6k/edit#heading=h.gza8dm5n28be | Technical Plan |
