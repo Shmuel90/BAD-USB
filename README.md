@@ -32,6 +32,8 @@ This project can potentially save companies from headaches in the future. There 
 
 # Project Methodology
 
+Literature Review : https://github.com/abladow/BAD-USB/blob/main/LitReview.md
+
 # Resources Needed
 
 |Resource  | Dr. Hale needed? | Investigating Team member | Description |
