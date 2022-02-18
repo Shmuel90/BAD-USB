@@ -1,4 +1,4 @@
-# BAD-USB
+# BUCS (BADUSB Challenge System)
 
 # Executive Project Summary
 ## Problem Statement
@@ -6,14 +6,14 @@ Users need an easy way to input data to a computer. This led to the creation of 
 The issue with HID is that it is an innately trusted device for operating systems. While there is no issue with innately trusting a keyboard, there is a problem with trusting a device that can masquerade as a keyboard. In 2014 the power of devices known generically as BadUSBs was demonstrated at Defcon. These devices can pretend to be a keyboard and automatically input malicious commands upon plug in. The user is powerless to stop the USB after they plug the device into their machine since the takeover occurs in an incredibly short amount of time. This project seeks to create a small amount of required human interaction in the device handshake to mitigate the threat from a BadUSB.
 
 ## Project Goals 
-1. Develop a prototype **$PROJECT NAME** in Python
-2. Research effectivness in Python \
-2a. If Found effective in Python continue development to a final product 
-3. If found ineffective research methods to develop prototype in C \
-3a. Develop prototype in C \
-3b. Research effectivness in C \
-3c. If found effective in C continue development to a final product
-4. If found ineffective research what other options there are to develop a product for Windows
+1. Determine optimal programming language
+2. Build prototype of BUCS
+3. Test prototype of BUCS
+4. If an effective countermeasure is created, package for delivery via package handlers like apt, rpm, windows installer, OSX.
+5. If found ineffective research what other options there are to develop a product for Windows
+
+These goals are the overall goals of the project. The specifics of how they will be accomplished are to be discussed later in this plan, but our project can be expressed in these four main goals. 
+
 ## Merit
 This project can potentially save companies from headaches in the future. There is no current ethical issue with developing an application to assist in the protection of a computer, and while there are currently mitigations in place to protect against BadUSB attacks, this will introduce a full protection against it. 
 
@@ -39,99 +39,60 @@ https://github.com/abladow/BAD-USB/blob/main/LitReview.md
 
 ## Technical Plan
 
-### Develop a prototype for $Project Name in Python
+### Develop BUCS (BadUSB Challenge System) Prototype
+- Goal 1:  Determine programming language required for optimal program functionality
+	
+	- Sub Objective 1: Determine if Python optimal
+	- Sub Objective 2: Determine if C optimal 
 
-Goals and objectives
+- Goal 2: Program the detection of USB keyboard devices.
 
-##### Goal 1: Program the detection of USB keyboard devices.
+	- Sub objective 1: We will begin by researching ways to interact with device manager and enumerate devices connected to the PC.
 
- - Sub objective 1: We will begin by researching ways to interact with device manager and enumerate devices connected to the PC.
+- Goal 3: Program the ability for the program to lockout input from a peripheral device
 
-##### Goal 2: Program the ability for the program to lockout input from a peripheral device
+	- Sub objective 1: We still begin researching the optimal way to lock-out a USB device for inputting information into the main system outside of the check without authorization.
 
- - Sub objective 1: We still begin researching the optimal way to lock-out a USB device for inputting information into the main system outside of the check without authorization.
+- Goal 4: Program the ability for the program to unlock input from a peripheral device
 
-##### Goal 3: Program the ability for the program to unlock input from a peripheral device
-
- - Sub objective 1: We still begin researching the best way to undo the lock-out of a USB device for inputting information into the main system.
+	- Sub objective 1: We still begin researching the best way to undo the lock-out of a USB device for inputting information into the main system.
 ***
-### Determine effectiveness of Python usage
-
-Goals and Objectives 
-
-##### Goal 1: Test with just detection
+### Test BUCS Prototype
+- Goal 1: Test with just detection
 	
- - Sub Objective 1: Test the effectiveness of plugging in a new keyboard while running our program multiple times with multiple devices to ensure good coverage
+	- Sub Objective 1: Test the effectiveness of plugging in a new keyboard while running our program multiple times with multiple devices to ensure good coverage
 
- - Sub Objective 2: Test the effectiveness of plugging in a bad USB device while running our program multiple times to ensure good coverage
+	- Sub Objective 2: Test the effectiveness of plugging in a bad USB device while running our program multiple times to ensure good coverage
 
-##### Goal 2: Test with detection and lock out
+- Goal 2: Test with detection and lock out
 	
- - Sub Objective 1: Test the effectiveness of plugging in a new keyboard while running our program multiple times with multiple devices to ensure good coverage
+	- Sub Objective 1: Test the effectiveness of plugging in a new keyboard while running our program multiple times with multiple devices to ensure good coverage
 
- - Sub Objective 2: Test the effectiveness of plugging in a bad USB device while running our program multiple times to ensure good coverage
+	- Sub Objective 2: Test the effectiveness of plugging in a bad USB device while running our program multiple times to ensure good coverage
 
-##### Goal 3: Test with detection, lock out, and CAPTCHA style challenge 
+- Goal 3: Test with detection, lock out, and CAPTCHA style challenge 
 
- - Sub Objective 1: Test the effectiveness of plugging in a new keyboard while running our program multiple times with multiple devices to ensure good coverage
+	- Sub Objective 1: Test the effectiveness of plugging in a new keyboard while running our program multiple times with multiple devices to ensure good coverage
 
- - Sub Objective 2: Test the effectiveness of plugging in a bad USB device while running our program multiple times to ensure good coverage
+	- Sub Objective 2: Test the effectiveness of plugging in a bad USB device while running our program multiple times to ensure good coverage
 
-##### Tentative Goal 4: If found fully effective, continue development and testing to a final product (detailed later in Package deliverable software for installation)
+- Tentative Goal 4: If found fully effective, continue development and testing to a final product (detailed later in Package deliverable software for installation) 
 ***
-### If Python found ineffective, research methods to develop prototype in C
-
-Goals and objectives
-
-##### Goal 1: Research C programming language and develop prototype
-
- - Sub Objective 1: We will begin by researching ways to interact with device manager and enumerate devices connected to the PC
-
- - Sub Objective 2: Research the optimal way to lock-out a USB device for inputting information into the main system outside of the check without authorization.
-
- - Sub Objective 3: Research the best way to undo the lock-out of a USB device for inputting information into the main system.
-
- - Sub Objective 4: Research the best way to deploy a CAPTCHA style test for the user to solve
-
-##### Goal 2: Research effectiveness in C 
-	
- - Sub Goal 1: Test with just detection
-	
- - Sub Objective 1: Test the effectiveness of plugging in a new keyboard while running our program multiple times with multiple devices to ensure good coverage
-
- - Sub Objective 2: Test the effectiveness of plugging in a bad USB device while running our program multiple times to ensure good coverage
-
- ###### Sub Goal 2: Test with detection and lock out
-	
- - Sub Objective 1: Test the effectiveness of plugging in a new keyboard while running our program multiple times with multiple devices to ensure good coverage
-
- - Sub Objective 2: Test the effectiveness of plugging in a bad USB device while running our program multiple times to ensure good coverage
-
- ###### Sub Goal 3: Test with detection, lock out, and CAPTCHA style challenge 
-
- - Sub Objective 1: Test the effectiveness of plugging in a new keyboard while running our program multiple times with multiple devices to ensure good coverage
-
- - Sub Objective 2: Test the effectiveness of plugging in a bad USB device while running our program multiple times to ensure good coverage
-***
-##### Tentative Goal 3: If found fully effective, continue development and testing to a final product (detailed later in Package deliverable software for installation)
-
 ### If found ineffective research what other options there are to develop a product for Windows
 
-Goals and Objectives
+- Goal 1: Investigate potential Windows configurations that will halt USB communication until user selects otherwise.
 
-##### Goal 1: Investigate potential Windows configurations that will halt USB communication until user selects otherwise.
-
-##### Goal 2: Consider available security policy objects to allow for mass deployment over a domain.
-
+- Goal 2: Consider available security policy objects to allow for mass deployment over a domain.
+***
 ### Package deliverable software for installation
 
-#####  Goal 1: Package project into a zip folder for more general distribution.
+- Goal 1: Package project into a zip folder for more general distribution.
 
-- Sub Objective 1: Prepare documentation for download and setup.
+	- Sub Objective 1: Prepare documentation for download and setup.
 
-#####  Goal 2: Package project into files usable by applicable installation managers (apt, rpm, yum, msi).
+- Goal 2: Package project into files usable by applicable installation managers (apt, rpm, yum, msi).
 
--	Sub Goal 1: Achieve functionality on multiple platforms. 
+	- Sub Goal 1: Achieve functionality on multiple platforms. 
 
 
 # Resources Needed
