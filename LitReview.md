@@ -4,6 +4,7 @@
 
 BadUSB, USB, Attak, Security, USBCheckIn, Human-Device Interaction, USB Devices, HID, Whitelist, Malware, CAPTCHA, USB Security  
 
+---------------------------
 
 Citation:
 F. Griscioli, M. Pizzonia and M. Sacchetti, "USBCheckIn: Preventing BadUSB attacks by forcing human-device interaction," 2016 14th Annual Conference on Privacy, Security and Trust (PST), 2016, pp. 493-496, doi: 10.1109/PST.2016.7907004. https://ieeexplore-ieee-org.leo.lib.unomaha.edu/stamp/stamp.jsp?tp=&arnumber=7907004&isnumber=7906913
