@@ -60,21 +60,21 @@ https://github.com/abladow/BAD-USB/blob/main/LitReview.md
 ### Test BUCS Prototype
 - Goal 1: Test with just detection
 	
-	- Sub Objective 1: Test the effectiveness of plugging in a new keyboard while running our program multiple times with multiple devices to ensure good coverage
+	- Sub Objective 1: Test the effectiveness of plugging in a new keyboard while running BUCS with the expected outcome of succesful detection multiple times with multiple devices to ensure good coverage
 
-	- Sub Objective 2: Test the effectiveness of plugging in a bad USB device while running our program multiple times to ensure good coverage
+	- Sub Objective 2: Test the effectiveness of plugging in a bad USB device while running BUCS with the expected outcome of succesful detectionmultiple times to ensure good coverage
 
 - Goal 2: Test with detection and lock out
 	
-	- Sub Objective 1: Test the effectiveness of plugging in a new keyboard while running our program multiple times with multiple devices to ensure good coverage
+	- Sub Objective 1: Test the effectiveness of plugging in a new keyboard while running BUCS with the expected outcome of succesful detection and lock out multiple times with multiple devices to ensure good coverage
 
-	- Sub Objective 2: Test the effectiveness of plugging in a bad USB device while running our program multiple times to ensure good coverage
+	- Sub Objective 2: Test the effectiveness of plugging in a bad USB device while running BUCS with the expected outcome of succesful detection and lock out multiple times to ensure good coverage
 
 - Goal 3: Test with detection, lock out, and CAPTCHA style challenge 
 
-	- Sub Objective 1: Test the effectiveness of plugging in a new keyboard while running our program multiple times with multiple devices to ensure good coverage
+	- Sub Objective 1: Test the effectiveness of plugging in a new keyboard while running BUCS with the expected outcome of succesful detection, lock out, and deployment of CAPTCHA style challenge multiple times with multiple devices to ensure good coverage
 
-	- Sub Objective 2: Test the effectiveness of plugging in a bad USB device while running our program multiple times to ensure good coverage
+	- Sub Objective 2: Test the effectiveness of plugging in a bad USB device while running BUCS with the expected outcome of succesful detection, lock out, and deployment of CAPTCHA style challenge multiple times to ensure good coverage
 
 - Tentative Goal 4: If found fully effective, continue development and testing to a final product (detailed later in Package deliverable software for installation) 
 ***
