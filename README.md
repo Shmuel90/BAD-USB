@@ -62,13 +62,13 @@ https://github.com/abladow/BAD-USB/blob/main/LitReview.md
 	
 	- Sub Objective 1: Test the effectiveness of plugging in a new keyboard while running BUCS with the expected outcome of succesful detection multiple times with multiple devices to ensure good coverage
 
-	- Sub Objective 2: Test the effectiveness of plugging in a bad USB device while running BUCS with the expected outcome of succesful detectionmultiple times to ensure good coverage
+	- Sub Objective 2: Test the effectiveness of plugging in a bad USB device while running BUCS with the expected outcome of succesful detection multiple times to ensure good coverage
 
 - Goal 2: Test with detection and lock out
 	
-	- Sub Objective 1: Test the effectiveness of plugging in a new keyboard while running BUCS with the expected outcome of succesful detection and lock out multiple times with multiple devices to ensure good coverage
+	- Sub Objective 1: Test the effectiveness of plugging in a new keyboard while running BUCS with the expected outcome of lock out multiple times with multiple devices to ensure good coverage
 
-	- Sub Objective 2: Test the effectiveness of plugging in a bad USB device while running BUCS with the expected outcome of succesful detection and lock out multiple times to ensure good coverage
+	- Sub Objective 2: Test the effectiveness of plugging in a bad USB device while running BUCS with the expected outcome of lock out multiple times to ensure good coverage
 
 - Goal 3: Test with detection, lock out, and CAPTCHA style challenge 
 
