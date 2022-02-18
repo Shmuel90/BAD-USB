@@ -2,7 +2,8 @@
 
 <h2> Keywords: </h2>
 
-- BadUSB USB
+- BadUSB 
+- USB
 - Attack 
 - Security
 - USBCheckIn
