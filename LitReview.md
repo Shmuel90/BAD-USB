@@ -2,7 +2,7 @@
 
 <h2> Keywords: </h2>
 
-
+BadUSB, USB, Attak, Security, USBCheckIn, Human-Device Interaction, USB Devices, HID, Whitelist, Malware, CAPTCHA, USB Security  
 
 
 Citation:
