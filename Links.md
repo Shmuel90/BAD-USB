@@ -18,6 +18,7 @@
 | https://stackoverflow.com/questions/29289945/how-to-temporarily-disable-keyboard-input-using-python | Disabling keyboard input in Python | 
 | https://stackoverflow.com/questions/130763/request-uac-elevation-from-within-a-python-script | Requesting UAC in Python | 
 | https://stackoverflow.com/questions/9930958/win32-determining-when-keyboard-is-connected-disconnected | C++ keyboard detection | 
+| https://stackoverflow.com/questions/2791489/how-do-i-take-out-the-focus-or-minimize-a-window-with-python | Focussing windows Python|
 # Our Documents
 |Link  | Description     | 
 |-------------------|------------|
