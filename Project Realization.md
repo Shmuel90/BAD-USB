@@ -1,14 +1,15 @@
 # Progress Report (insert date here)
 ## Overview
 (insert brief overview of efforts made)
-To this point in the project, we have been able to advance in an event based detection for PNP devices in both Windows and Linux. Additionally we have created a number of BadUSB attacks that we are using for testing against BUCS.
+To this point in the project, we have been able to advance in an event based detection for PNP devices in Windows. Additionally we have advanced efforts in creating scripts that leverages our intended defense mechanism and test cases to use them against.
 
 ## Outcomes
 (brief overview of outcomes - what did you achieve?)
 
 also list them out like this:
-* outcome 1
-* outcome 2
+* Obtained event based detection in Windows
+* Crafted a number of BadUSB attacks to leverage against our BUCS
+* Created a script that applies out intended defense mechanism
 
 ## Hinderances
 (insert brief discussion of challenges encountered)
