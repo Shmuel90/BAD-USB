@@ -16,7 +16,7 @@ Install these python libraries using pip
 
 You are ready to make changes to the code without throwing dependency errors!
 
-### Step 4 
+### Step 4: Enable PnP logging (Windows Only) 
 
 Enable PNP auditing in the Windows Local Security Policy under:
 ```
