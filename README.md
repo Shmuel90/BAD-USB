@@ -132,7 +132,7 @@ Advanced Audit Policy Configuration\Detailed Tracking\Audit PNP Activity
 Enable Success and Failure.
 
 
-#Diagrams
+# Diagrams
 ![Program Flow Chart](https://github.com/abladow/BAD-USB/blob/main/Documentation/BUCS_FlowChart.png?raw=true)
 ![Architecture Interaction](https://github.com/abladow/BAD-USB/blob/main/Documentation/BUCS_Windows_Interaction.png?raw=true)
 ![Process Flow Chart](https://github.com/abladow/BAD-USB/blob/main/Documentation/process%20flow.png?raw=true)
