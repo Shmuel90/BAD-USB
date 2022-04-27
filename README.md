@@ -19,6 +19,7 @@ This project can potentially save companies from headaches in the future. There 
 
 # Proposed Timeline
 ![image](https://user-images.githubusercontent.com/56526625/153780252-0ad2a31a-c621-440e-b48a-008838362a42.png)
+
 # Risk List
 
 |Risk name (value)  | Impact     | Likelihood | Description |
@@ -104,3 +105,34 @@ https://github.com/abladow/BAD-USB/blob/main/LitReview.md
 |Windows 10 PC| No | Mitchell | PC on which we can test the function of our BadUSB and our code|
 
 
+# ENV Setup
+### Step 1:
+Download and install the appropriate python3 for your windows machine from `python.org/downloads/windows`
+### Step 2:
+Install these python libraries using pip
+
+  ```
+  pip install PyYaml
+  pip install random-word
+  ```
+  
+### Step 3: Clone the repository
+  ```
+  git clone https://github.com/abladow/BAD-USB.git
+  ```
+
+You are ready to make changes to the code without throwing dependency errors!
+
+### Step 4 
+
+Enable PNP auditing in the Windows Local Security Policy under:
+```
+Advanced Audit Policy Configuration\Detailed Tracking\Audit PNP Activity
+```
+Enable Success and Failure.
+
+
+# Diagrams
+![Program Flow Chart](https://github.com/abladow/BAD-USB/blob/main/Documentation/BUCS_FlowChart.png?raw=true)
+![Architecture Interaction](https://github.com/abladow/BAD-USB/blob/main/Documentation/BUCS_Windows_Interaction.png?raw=true)
+![Process Flow Chart](https://github.com/abladow/BAD-USB/blob/main/Documentation/process%20flow.png?raw=true)
