@@ -1,13 +1,8 @@
-#from random_words import RandomWords
 from dictionary import buildCap
 from tkinter import *
 from tkinter import ttk
 
 def deliver_cap():
-    """
-    cap = rw.random_word()+' '+rw.random_word()+' '+rw.random_word()
-    print(cap)
-    """
     cap = buildCap()
     print(cap)
     answer = input('Enter the words above:')
