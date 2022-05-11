@@ -3,7 +3,13 @@
 (overview of project, reuse from milestone 1, update if scope changed)
 
 ## Project Goals
-(high level project goals, reuse from milestone 1, update if scope changed)
+1. Determine optimal programming language
+2. Build prototype of BUCS
+3. Test prototype of BUCS
+4. If an effective countermeasure is created, package for delivery via package handlers like apt, rpm, windows installer, OSX.
+5. If found ineffective research what other options there are to develop a product for Windows
+
+These goals are the overall goals of the project. The specifics of how they will be accomplished are to be discussed later in this plan, but our project can be expressed in these four main goals. 
 
 ## Project Methodology
 (specific methodology followed in the project, reuse from milestone 1/2, update if scope changed)
@@ -17,7 +23,8 @@
 
 ## Install Instructions (if applicable)
 ### Requirements
-(list of any software / hardware requirements necessary to run the code/app/etc)
+1.python3
+2.Windows
 
 ### Installation Instructions
 (list of steps to install the product/app/code/etc)
