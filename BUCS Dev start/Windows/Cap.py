@@ -12,6 +12,5 @@ def deliver_cap():
         print('The device that was just plugged in may be a milicious device, or the words were typed incorrectly. Please ensure the device is what it\'s meant to be.')
         deliver_cap()
 
-#rw = RandomWords()
 deliver_cap()
 
