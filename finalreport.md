@@ -23,8 +23,8 @@ These goals are the overall goals of the project. The specifics of how they will
 
 ## Install Instructions (if applicable)
 ### Requirements
-1.python3
-2.Windows
+1. python3
+2. Windows
 
 ### Installation Instructions
 (list of steps to install the product/app/code/etc)
