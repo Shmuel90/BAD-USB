@@ -72,16 +72,16 @@ These goals are the overall goals of the project. The specifics of how they will
 (brief overview of outcomes - what did you achieve?, list milestone 1/2/3 outcomes, make an effort to logically collect and organize the findings)
 
 (bulleted lists can also be helpful to structure your results discussion)
-* milestone outcome 1
--
-* milestone 2 outcomes
-- Began work on Windows programs as intro prototypes to the final product - BAD-USB/BUCS Dev start/Windows/Obsolete & BAD-USB/BUCS Dev start/Linux
-- Obtained event based detection in Windows - BAD-USB/BUCS Dev start/Windows/hid_test.xml 
-- Crafted a number of BadUSB attacks to leverage against our BUCS - BAD-USB/BadUSB scripts/
-- Created a script that applies out intended defense mechanism - BAD-USB/BUCS Dev start/Windows/myscript.bat & /Cap.py
-- Began work on GUI - BAD-USB/BUCS Dev start/Windows/BUCS_GUI_FRAME.py
+* milestone 1 outcome
+	-
+* milestone 2 outcome
+	- Began work on Windows programs as intro prototypes to the final product - BAD-USB/BUCS Dev start/Windows/Obsolete & BAD-USB/BUCS Dev start/Linux
+	- Obtained event based detection in Windows - BAD-USB/BUCS Dev start/Windows/hid_test.xml 
+	- Crafted a number of BadUSB attacks to leverage against our BUCS - BAD-USB/BadUSB scripts/
+	- Created a script that applies out intended defense mechanism - BAD-USB/BUCS Dev start/Windows/myscript.bat & /Cap.py
+	- Began work on GUI - BAD-USB/BUCS Dev start/Windows/BUCS_GUI_FRAME.py
 * milestone 3 outcomes
--
+	-
 ## Install Instructions (if applicable)
 ### Requirements
 1. python3
