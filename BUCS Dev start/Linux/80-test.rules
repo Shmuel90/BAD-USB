@@ -1,3 +1,0 @@
-SUBSYSTEM=="hidraw", ACTION=="add", RUN+="/home/mwhite/device_added.sh"
-SUBSYSTEM=="hidraw", ACTION=="remove", RUN+="/home/mwhite/device_removed.sh"
-#SUBSYSTEM=="hidraw", ACTION=="add", RUN+="python3 /home/mwhite/BUCS.py"
