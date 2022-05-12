@@ -1,4 +1,4 @@
-View the .md file at https://github.com/abladow/BAD-USB/blob/main/Documentation/Installation.md for cleaner installation instructions
+
 
 ## Install Instructions 
 ### Requirements
