@@ -1,0 +1,6 @@
+### Group or User option 
+For this option, this is the permissions with which the BUCS script will be ran. Choose whatever user or group best fits your need.
+
+### Delay option
+This option is important since it is the way that BUCS steps between the delivery of the payload and the payloads intentions. Stepping in after delivery has begun but before it ends is important, so the delay may need to be shorter or longer depending on your system.
+The best way to check this is by testing with a BadUSB device.
