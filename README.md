@@ -102,7 +102,8 @@ Enable Success and Failure.
 
 ### Step 3: Download the 1.0_Pack.zip
 
-https://github.com/abladow/BAD-USB/raw/main/Install/1.0_Pack.zip
+https://github.com/abladow/BAD-USB/raw/main/Install/1.0_Pack.zip \
+Unzip the contents
   
 
 You are ready to make changes to the code without throwing dependency errors!
