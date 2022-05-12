@@ -69,16 +69,13 @@ These goals are the overall goals of the project. The specifics of how they will
 
 
 ## Results / Findings
-(brief overview of outcomes - what did you achieve?, list milestone 1/2/3 outcomes, make an effort to logically collect and organize the findings)
-
-(bulleted lists can also be helpful to structure your results discussion)
-* milestone 1 outcome
+* milestone 1 outcomes
 	- Refined scope of problem
 	- Refined our methodology BAD-USB/Documentation/Milestone 1/Proposal.md
 	- Determined our inital development plan BAD-USB/Documentation/Milestone 1/Proposal.md
 	- Determined project timeline BAD-USB/Documentation/Milestone 1/Proposal.md
 	- Determined risks for project BAD-USB/Documentation/Milestone 1/Proposal.md
-* milestone 2 outcome
+* milestone 2 outcomes
 	- Began work on Windows programs as intro prototypes to the final product - BAD-USB/BUCS Dev start/Windows/Obsolete & BAD-USB/BUCS Dev start/Linux
 	- Obtained event based detection in Windows - BAD-USB/BUCS Dev start/Windows/hid_test.xml 
 	- Crafted a number of BadUSB attacks to leverage against our BUCS - BAD-USB/BadUSB scripts/
