@@ -100,7 +100,7 @@ Computer Configuration \ Windows Settings \ Security Settings \ Advanced Audit P
 ![Alt text](https://github.com/abladow/BAD-USB/blob/main/Documentation/Group%20policy%20config.png)\
 Enable Success and Failure.
 
-### Step 3: Clone the repository
+### Step 3: Download the 1.0_Pack.zip
   ```
   git clone https://github.com/abladow/BAD-USB.git
   ```
