@@ -100,10 +100,11 @@ You are ready to make changes to the code without throwing dependency errors!
 
 ### Step 3
 
-Enable PNP auditing in the Windows Local Security Policy under:
+Enable PNP auditing in the Windows Group Policy Editor under:
 ```
-Advanced Audit Policy Configuration\Detailed Tracking\Audit PNP Activity
+Computer Configuration \ Windows Settings \ Security Settings \ Advanced Audit Policy Configuration \ Detailed Tracking \ Audit PNP Activity
 ```
+![Alt text](https://github.com/abladow/BAD-USB/blob/main/Documentation/Group%20policy%20config.png)
 Enable Success and Failure.
 
 ### Getting started
