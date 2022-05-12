@@ -73,7 +73,11 @@ These goals are the overall goals of the project. The specifics of how they will
 
 (bulleted lists can also be helpful to structure your results discussion)
 * milestone 1 outcome
-	-
+	- Refined scope of problem
+	- Refined our methodology BAD-USB/Documentation/Milestone 1/Proposal.md
+	- Determined our inital development plan BAD-USB/Documentation/Milestone 1/Proposal.md
+	- Determined project timeline BAD-USB/Documentation/Milestone 1/Proposal.md
+	- Determined risks for project BAD-USB/Documentation/Milestone 1/Proposal.md
 * milestone 2 outcome
 	- Began work on Windows programs as intro prototypes to the final product - BAD-USB/BUCS Dev start/Windows/Obsolete & BAD-USB/BUCS Dev start/Linux
 	- Obtained event based detection in Windows - BAD-USB/BUCS Dev start/Windows/hid_test.xml 
@@ -81,7 +85,10 @@ These goals are the overall goals of the project. The specifics of how they will
 	- Created a script that applies out intended defense mechanism - BAD-USB/BUCS Dev start/Windows/myscript.bat & /Cap.py
 	- Began work on GUI - BAD-USB/BUCS Dev start/Windows/BUCS_GUI_FRAME.py
 * milestone 3 outcomes
-	-
+	- Created a new library to create the CAPTCHA that better fit needs of users BAD-USB/BUCS Dev start/Windows/dictionary.py && Cap.py
+	- Researched BadUSB scripts more in depth and discovered common methods among them
+	- Researched common BadUSB methods to better defend against them
+	- Crafted ideas as to how additional protections could be implemented
 ## Install Instructions 
 ### Requirements
 1. python3
