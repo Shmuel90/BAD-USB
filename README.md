@@ -1,45 +1,17 @@
 # BUCS (BADUSB Challenge System)
+## Executive Summary
+Users need an easy way to input data to a computer. This led to the creation of devices such as mice and keyboards to allow users to achieve that goal. Throughout the years, technology of mice and keyboards alike grew, and we now have created USB and HID to assist in creating easy input methods for users. The issue with HID is that it is an innately trusted device for operating systems. While there is no issue with innately trusting a keyboard, there is a problem with trusting a device that can masquerade as a keyboard. In 2014 the power of devices known generically as BadUSBs was demonstrated at Defcon. These devices can pretend to be a keyboard and automatically input malicious commands upon plug in. The user is powerless to stop the USB after they plug the device into their machine since the takeover occurs in an incredibly short amount of time. This project seeks to create a small amount of required human interaction in the device handshake to mitigate the threat from a BadUSB.
 
-# Executive Project Summary
-## Problem Statement
-Users need an easy way to input data to a computer. This led to the creation of devices such as mice and keyboards to allow users to achieve that goal. Throughout the years, technology of mice and keyboards alike grew, and we now have created USB and HID to assist in creating easy input methods for users.
-The issue with HID is that it is an innately trusted device for operating systems. While there is no issue with innately trusting a keyboard, there is a problem with trusting a device that can masquerade as a keyboard. In 2014 the power of devices known generically as BadUSBs was demonstrated at Defcon. These devices can pretend to be a keyboard and automatically input malicious commands upon plug in. The user is powerless to stop the USB after they plug the device into their machine since the takeover occurs in an incredibly short amount of time. This project seeks to create a small amount of required human interaction in the device handshake to mitigate the threat from a BadUSB.
+This project can potentially save companies from headaches in the future. There is no current ethical issue with developing an application to assist in the protection of a computer, and while there are currently mitigations in place to protect against BadUSB attacks, this will introduce a full protection against it.
 
-## Project Goals 
+## Project Goals
 1. Determine optimal programming language
 2. Build prototype of BUCS
 3. Test prototype of BUCS
-4. If an effective countermeasure is created, package for delivery via package handlers like apt, rpm, windows installer, OSX.
-5. If found ineffective research what other options there are to develop a product for Windows
 
 These goals are the overall goals of the project. The specifics of how they will be accomplished are to be discussed later in this plan, but our project can be expressed in these four main goals. 
 
-## Merit
-This project can potentially save companies from headaches in the future. There is no current ethical issue with developing an application to assist in the protection of a computer, and while there are currently mitigations in place to protect against BadUSB attacks, this will introduce a full protection against it. 
-
-# Proposed Timeline
-![image](https://user-images.githubusercontent.com/56526625/153780252-0ad2a31a-c621-440e-b48a-008838362a42.png)
-
-# Risk List
-
-|Risk name (value)  | Impact     | Likelihood | Description |
-|-------------------|------------|------------|-------------|
-|Security bypassed(36) | 6 | 6 | The security check that detects a new keyboard fails to detect or start. Mitigate this risk by researching a lower level method of finding new devices |
-|Failure to unlock(28) | 7 | 4 | Even if check is passed the keyboard is not allowed to type. Accept this risk until further research is performed.  |
-|USB disable(18) | 9 | 2 | Through security policy or other USB ports become unusable. Mitigate this rish by using a VM or other system that allows us to flash it and restart. |
-|Lockout(24) | 8 | 3 | Our Utility stop any form of keyboard input. Accept this risk until further research is done.  |
-|Project failure(30) | 10 | 3 | Failure to create a effective method to stop Bad USBs. Monitor this risk, and potentially shift project focus if our idea cannot be completed.  |
-| Lack of knowledge of windows hardware stack(28) | 4 | 7 | Our team lacks proper knowledge about the windows hardware stack which makes it more difficult to gauge if our idea will work at a higher level. Mitigate this risk by researching and gaining a better understanding of how the windows hardware stack operates. | 
-| Python not low enough of a language (24)| 4 | 6 | Python is not a low level language which could cause issues with our program not performing the way we expect computationally or speed wise. We will accept this risk by understanding that we may need to move to C to complete the program. |
-| Administration level not reached in Python (45)| 9 | 5 | Unable to get the permissions on Windows to keep the program alive. Accept this risk until further research is done. | 
-
-# Project Methodology
-
-## Literature Review
-https://github.com/abladow/BAD-USB/blob/main/LitReview.md
-
-## Technical Plan
-
+## Project Methodology
 ### Develop BUCS (BadUSB Challenge System) Prototype
 - Goal 1:  Determine programming language required for optimal program functionality
 	
@@ -96,36 +68,62 @@ https://github.com/abladow/BAD-USB/blob/main/LitReview.md
 	- Sub Goal 1: Achieve functionality on multiple platforms. 
 
 
-# Resources Needed
+## Results / Findings
+(brief overview of outcomes - what did you achieve?, list milestone 1/2/3 outcomes, make an effort to logically collect and organize the findings)
 
-|Resource  | Dr. Hale needed? | Investigating Team member | Description |
-|-------------------|---------|---------------------------|-------------|
-|AiTrip Digispark MicroUSB Dev Board | No | All | Board that will be used to craft the BadUSB|
-|Windows 10 VM | No | All | VM on which we can test the function of the BadUSB and our code|
-|Windows 10 PC| No | Mitchell | PC on which we can test the function of our BadUSB and our code|
+(bulleted lists can also be helpful to structure your results discussion)
+* milestone 1 outcome
+	-
+* milestone 2 outcome
+	- Began work on Windows programs as intro prototypes to the final product - BAD-USB/BUCS Dev start/Windows/Obsolete & BAD-USB/BUCS Dev start/Linux
+	- Obtained event based detection in Windows - BAD-USB/BUCS Dev start/Windows/hid_test.xml 
+	- Crafted a number of BadUSB attacks to leverage against our BUCS - BAD-USB/BadUSB scripts/
+	- Created a script that applies out intended defense mechanism - BAD-USB/BUCS Dev start/Windows/myscript.bat & /Cap.py
+	- Began work on GUI - BAD-USB/BUCS Dev start/Windows/BUCS_GUI_FRAME.py
+* milestone 3 outcomes
+	-
+## Install Instructions 
+### Requirements
+1. python3
+2. Windows 10 or newer
 
-
-# ENV Setup
+### Installation Instructions
 ### Step 1:
 Download and install the appropriate python3 for your windows machine from `python.org/downloads/windows`
 
-### Step 2: Clone the repository
-  ```
-  git clone https://github.com/abladow/BAD-USB.git
-  ```
+### Step 2:
+
+Enable PNP auditing in the Windows Group Policy Editor under:
+```
+Computer Configuration \ Windows Settings \ Security Settings \ Advanced Audit Policy Configuration \ Detailed Tracking \ Audit PNP Activity
+```
+![Alt text](https://github.com/abladow/BAD-USB/blob/main/Documentation/Group%20policy%20config.png)\
+Enable Success and Failure.
+
+### Step 3: Download the 1.0_Pack.zip
+
+https://github.com/abladow/BAD-USB/raw/main/Install/1.0_Pack.zip
+  
 
 You are ready to make changes to the code without throwing dependency errors!
 
-### Step 3
-
-Enable PNP auditing in the Windows Local Security Policy under:
+### Step 4: Configure Task scheduler
+1. In task scheduler import the BUCS_Task.xml file:
 ```
-Advanced Audit Policy Configuration\Detailed Tracking\Audit PNP Activity
-```
-Enable Success and Failure.
-
-
-# Diagrams
-![Program Flow Chart](https://github.com/abladow/BAD-USB/blob/main/Documentation/BUCS_FlowChart.png?raw=true)
-![Architecture Interaction](https://github.com/abladow/BAD-USB/blob/main/Documentation/BUCS_Windows_Interaction.png?raw=true)
-![Process Flow Chart](https://github.com/abladow/BAD-USB/blob/main/Documentation/process%20flow.png?raw=true)
+  Actions -> Import Task
+  ```
+2. Navigate to where BUCS_Task.xml is downloaded and select it
+3. Set the group or user for it to run with if you wish to change it from default (Administrators) by selecting Change User of Group
+4. Select the Actions tab at the top to configure the actions
+5. The default action is a place holder to open a command prompt. Select the action and choose edit to change it.
+6. Under Program/Script browse to where the BUCS download is and choose the BUCS_Script.bat file
+7. Under triggers is where the the delay can be edited, this is important to have proper interjection to the attack, default is 5 seconds. This may need to change for your system. To do this navigate to the triggers tab and select the trigger. Then select edit. There you can edit the delay.
+8. Hit Ok on the task window and close task scheduler
+### Step 5: Configure BUCS_Script.bat
+1. Open the BUCS_Script.bat in a text editor of your choice.
+2. On line 3 set the calue of the statements within the <> brackets
+	1. The first <> statement will be the PATH to the python3 executable on your system
+	2. The second <> statement will be the PATH to the Cap.py file
+3. Save and close
+### Getting started
+If properly configured, when a keyboard is plugged in to the system BUCS will activate
