@@ -1,10 +1,3 @@
-
-
-## Install Instructions 
-### Requirements
-1. python3
-2. Windows 10 or newer
-
 ### Installation Instructions
 ### Step 1:
 Download and install the appropriate python3 for your windows machine from `python.org/downloads/windows`
@@ -18,10 +11,11 @@ Computer Configuration \ Windows Settings \ Security Settings \ Advanced Audit P
 ![Alt text](https://github.com/abladow/BAD-USB/blob/main/Documentation/Group%20policy%20config.png)\
 Enable Success and Failure.
 
-### Step 3: Clone the repository
-  ```
-  git clone https://github.com/abladow/BAD-USB.git
-  ```
+### Step 3: Download the 1.0_Pack.zip
+
+https://github.com/abladow/BAD-USB/raw/main/Install/1.0_Pack.zip \
+Unzip the contents
+  
 
 You are ready to make changes to the code without throwing dependency errors!
 
