@@ -134,4 +134,4 @@ You are ready to make changes to the code without throwing dependency errors!
 	2. The second <> statement will be the PATH to the Cap.py file
 3. Save and close
 ### Getting started
-If properly configured, when a keyboard is plugged in to the system BUCS will activate
+If properly configured, when a HID device is plugged in to the system BUCS will activate
