@@ -115,7 +115,7 @@ You are ready to make changes to the code without throwing dependency errors!
 2. Navigate to where BUCS_Task.xml is downloaded and select it
 3. Set the group or user for it to run with if you wish to change it from default (Administrators) by selecting Change User of Group
 4. Select the Actions tab at the top to configure the actions
-5. The default action is a place holder to open a command prompt. Select the action and choose edit to chang it.
+5. The default action is a place holder to open a command prompt. Select the action and choose edit to change it.
 6. Under Program/Script browse to where the BUCS download is and choose the BUCS_Script.bat file
 7. Under triggers is where the the delay can be edited, this is important to have proper interjection to the attack, default is 5 seconds. This may need to change for your system. To do this navigate to the triggers tab and select the trigger. Then select edit. There you can edit the delay.
 8. Hit Ok on the task window and close task scheduler
