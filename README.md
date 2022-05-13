@@ -69,6 +69,7 @@ These goals are the overall goals of the project. The specifics of how they will
 
 
 ## Results / Findings
+Overall, our results were great. We had only seen one software solution to this problem, and so the onset of this project was a mostly unworked area. When we finally acheived detection and successful interjection in Milestone 2 we were able to use that as our baseline to test against. With testing on multiple devices and with multiple attack types, we were able to successfully interject into all of the attacks, thwarting them. After we studied the basic attacks and tested them, we began to try and find work arounds of our program. We were able to identify a few, but using that we were able to theorize solutions that could be implemented into BUCS in the future.
 * milestone 1 outcomes
 	- Refined scope of problem
 	- Refined our methodology BAD-USB/Documentation/Milestone 1/Proposal.md
@@ -83,6 +84,8 @@ These goals are the overall goals of the project. The specifics of how they will
 	- Began work on GUI - BAD-USB/BUCS Dev start/Windows/BUCS_GUI_FRAME.py
 * milestone 3 outcomes
 	- Created a new library to create the CAPTCHA that better fit needs of users BAD-USB/BUCS Dev start/Windows/dictionary.py && Cap.py
+	- Maintained detection of BadUSBs and was able to interject into them successfuly
+	- Discovered areas where BUCS was able to be defeated
 	- Researched BadUSB scripts more in depth and discovered common methods among them
 	- Researched common BadUSB methods to better defend against them
 	- Crafted ideas as to how additional protections could be implemented
